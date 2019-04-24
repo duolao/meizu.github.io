@@ -1,53 +1,8 @@
-body ,html, a, p ,div, h1 ,h2, h3, h4 ,h5 ,h6 ,img,input ,button ,ul ,ol ,li ,form ,span, i{
-    margin: 0;
-    padding: 0;
-}
-html{
-    width: 100%;
-    min-height: 750px;
-    max-height: 1080px;
-}
-body{
-    width: 100%;
-    height: 100%;
-    font-size: 14px;
-    background: #fff;
-    position: relative;
-}
-ul,ol {
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    color: #fff;
-}
-button{
-    border: none;
-}
-input{
-    outline: none;
-}
-img{
-    border: none;
-}
-.clearboth::after{
-    content: '';
-    display: block;
-    clear: both;
-}
-.flex{
-    display: flex;
-}
+
 .top{
     width: 100%;
     height: 68px;
     background: #fff;
-}
-.fl{
-    float: left;
-}
-.fr{
-    float: right;
 }
 .wrap_one{
     width: 90%;
