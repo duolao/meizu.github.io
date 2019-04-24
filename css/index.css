@@ -1,0 +1,782 @@
+body ,html, a, p ,div, h1 ,h2, h3, h4 ,h5 ,h6 ,img,input ,button ,ul ,ol ,li ,form ,span, i{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+    font-size: 14px;
+  background: #f3f3f3;
+}
+ul,ol {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+button{
+    border: none;
+}
+input{
+    outline: none;
+}
+img{
+    border: none;
+}
+.flex{
+    display: flex;
+}
+.wrap{
+    width: 1240px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.web_one{
+    width: 100%;
+    height: 670px;
+    /* background: green; */
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.top_img{
+    width: 100%;
+    height: 670px;
+    position: absolute; 
+    left: 0;
+    top: 0;  
+    z-index: -1;
+}
+.back_img{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://fms.res.meizu.com/dms/2019/03/06/0ebaac42-c73f-4c23-8931-d6fa582d506c.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+/* .big_box{
+    width: 100%;
+} */
+.web_one_nav{
+    width: 90%;
+    height: 82px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content:space-between;
+}
+.img_one{
+    width: 125px;
+    height: 24px;
+    display: block;
+}
+
+.ul_one{
+    /* width: 612px; */
+    height: 82px;
+    /* background: green; */
+    line-height: 82px;
+    /* margin-left: 210px; */
+}
+.ul_one li{
+    margin-right: 30px;
+}
+.ul_one li a{
+    font-weight: 500;
+}
+.ul_one  .ap{
+    margin-right:30px; 
+}
+.form_one{
+    position: relative;
+}
+.img_two{
+    width: 15px;
+    height: 14px;
+    position: absolute;
+    right: 7px;
+    top: 34px;
+}
+.form_one input{
+    width: 170px;
+    height: 30px;
+    border-radius: 100px;
+    border: none;
+    text-indent: 15px;
+}
+
+.form_one input::placeholder{
+    font-size: 12px;
+    
+}
+.img_ren img{
+    width: 29px;
+    height: 29px;
+    margin-left: 12px;
+    vertical-align: middle;
+}
+.img_car img{
+    width: 29px;
+    height: 29px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.nav_box{
+    line-height: 82px;
+}
+.web_two{
+    width: 100%;
+    height: 278px;
+    background: #fff;
+    vertical-align: middle;
+}
+.wrap_one{
+    width: 1240px;
+    height: 278px;
+    margin:auto;
+    /* background: red; */
+    overflow: hidden
+}
+.have{
+    width: 310px;
+    height: 187px;
+    /* background: green; */
+    text-align: center;
+    margin-top: 45px;
+}
+.have img{
+    width: 190px;
+    height: 130px; 
+}
+.have p{
+    font-size: 18px;
+    padding: 5px;
+    color: #333;
+}
+.have  a{
+    font-size: 14px;
+    color: #999;
+}
+.tit{
+    width: 100%;
+    height: 105px;
+    background: #f3f3f3;
+    overflow: hidden;
+}
+.tit h3{
+    font-size:30px;
+    color: #505050;
+    margin-top: 50px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+.love{
+    width: 100%;
+    height: 450px;
+}
+.back_img_two{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://openfile.meizu.com/group1/M00/06/F9/Cgbj0FxmbimAfNChAAOMaG6s828938.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.wrap_two{
+    width: 1240px;
+    height: 610px;
+    /* background: red; */
+    margin: auto;
+    margin-top: 10px;
+    justify-content: space-between
+}
+.newleft{
+    width: 615px;
+    height: 610px;
+    background: #fff;
+    text-align: center;
+    position: relative;
+}
+.newright{
+    width: 615px;
+    height: 610px;
+    background: #fff;
+    text-align: center;
+    position: relative;
+}
+.newleft_one{
+    font-size: 28px;
+    color: #333;
+    display: block;
+    margin-top: 58px;
+}
+.newleft_two{
+    font-size: 18px;
+    color: #333;
+    display: block;
+    margin-top: 10px;
+}
+.qian{
+    font-size: 14px;
+    color: #c00;
+}
+.newleft_three{
+    font-size: 22px;
+    color:  #c00;  
+}
+.money{
+    margin-top: 10px;
+    
+}
+.meizu9{
+    width: 460px;
+    height: 460px;
+    background-image: url(https://openfile.meizu.com/group1/M00/07/12/Cgbj0Vx_ZK6AaEObAAa1DJqn7us376.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 77px;
+    margin-top: -20px;
+}
+.meizu16{
+    width: 460px;
+    height: 460px;
+    background-image: url(https://openfile.meizu.com/group1/M00/05/F1/Cgbj0VtqgmyADfzUAAdk_Uz-jKk371.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 77px;
+    margin-top: -20px;
+}
+.ball{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background: linear-gradient(120deg,#ff3149,#ff64a6);
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.balls{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background:linear-gradient(120deg,#ff910e,#ffd037);
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.wrap_three{
+    width: 1240px;
+    height: 375px;
+    /* background: #fff; */
+    margin: auto;
+    margin-top: 10px;
+    
+
+}
+.wrap_three li{
+    width: 303px;
+    height: 375px;
+    background: #fff;
+    margin-left:10px ;
+    text-align: center;
+    position: relative;
+}
+.wrap_three .li_one{
+    margin:0;
+}
+.boxp{
+    width: 230px;
+    height: 230px;
+}
+.uzi_one{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://openfile.meizu.com/group1/M00/05/E1/Cgbj0FtqgkWALkhxAAkE5Uiy2no917.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.mzp{
+    font-size: 16px;
+    color: #333;
+    display: block;
+}
+.xiaolong{
+    color: #999;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+}
+.my{
+    font-size: 14px;
+    color: #c00;
+}
+.math{
+    font-size: 22px;
+    color: #c00;
+}
+.mymath{
+    margin-top: 10px;
+}
+.ball_one{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background: linear-gradient(120deg,#ff910e,#ffd037);
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    text-align: center;
+    line-height: 60px;
+}
+.ball_two{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background: linear-gradient(120deg,#2e74f6,#56bdf9);
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    text-align: center;
+    line-height: 60px;
+}
+.ball_two span{
+    font-size: 16px;
+    color: #fff;
+}
+.ball_one span{
+    font-size: 16px;
+    color: #fff;
+}
+.uzi_two{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSK2AQZgiAAlFKHoO-co889.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.uzi_three{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://openfile.meizu.com/group1/M00/06/CC/Cgbj0VvINL-AGM20AAw4GirVtYA698.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.uzi_four{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://openfile.meizu.com/group1/M00/06/D4/Cgbj0VvQPnuAAwPPAAMv8zzt2DE910.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 35px;
+    margin-top: 25px; 
+}
+.uzi_five{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://openfile.meizu.com/group1/M00/06/AC/Cgbj0VujaMyAYB76AATj19tgy08068.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 35px;
+    margin-top: 25px; 
+}
+.uzi_six{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://openfile.meizu.com/group1/M00/04/0B/Cgbj0FrcbkeAW38NAAjvsXhhyFE066.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 35px;
+    margin-top: 25px; 
+}
+.uzi_seven{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://openfile.meizu.com/group1/M00/04/0D/Cgbj0FrcbqKANbtFAAu0nXkFYY4657.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 35px;
+    margin-top: 25px; 
+}
+.uzi_eight{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://openfile.meizu.com/group1/M00/03/BC/Cgbj0Vq9-oeARs_XAALvUdl5qpo302.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 35px;
+    margin-top: 25px;  
+}
+.succ{
+    width: 100%;
+    height: 450px;
+}
+.back_voice{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://fms.res.meizu.com/dms/2018/10/23/89d0ea78-27bd-4e9d-8a50-db02395d7ee4.jpg);
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.runimg{
+    width: 303px;
+    height: 375px;
+}
+.acc{
+    font-size: 21px;
+    color: #fff;
+    font-weight: 700;
+    display: block;
+    /* position: absolute;
+    left: 60px;
+    bottom: 80px; */
+}
+.light{
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    /* position: absolute;
+    left: 15px;
+    bottom: 55px; */
+}
+.nines{
+    font-size: 22px;
+    color: #00fefb;
+    font-weight: 700;
+    display: block;
+    margin-top:5px;
+    /* position: absolute;
+    left:center;
+    bottom: 20px; */
+}
+.son{
+    width: 303px;
+    height: 375px;
+    position: absolute;
+    left: 0;
+    top: 270px;
+}
+.text_cen{
+    text-align: center;
+}
+.headset_one{
+    width: 230px;
+    height: 230px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.martop{
+    margin-top: 20px;
+}
+.bluetooth{
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-top: 35px;
+}
+.night_run{
+    font-size: 14px;
+    color: #999;
+    display: block;
+    margin-top: 10px;
+}
+.my_two{
+   font-size: 14px;
+   color: #c00; 
+}
+.math_two{
+    font-size: 22px;
+    color: #c00;
+       /* padding-left: 14px; */
+}
+.mymath_two s{
+    color: #666;
+    margin-left: 8px;
+    font-size: 12px;
+    
+}
+.mymath_two{
+    margin-top: 10px;
+}
+.del{
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    margin-top: 13px;
+}
+.mar_lef{
+    margin-left: 90px;
+}
+.mar_lefs{
+    margin-left: 100px;
+}
+.niness{
+    font-size: 22px;
+    color: #ebce6b;
+    font-weight: 700;
+    display: block;
+    margin-top:5px; 
+}
+.back_cap{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://fms.res.meizu.com/dms/2018/11/26/c67264b3-38d7-4b57-af1c-5f061c70db0e.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mar_lefss{
+    margin-left: 105px;
+}
+.mar_lefsss{
+    margin-left: 115px;
+}
+.back_live{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://fms.res.meizu.com/dms/2019/02/14/2fd834ce-9b52-4c49-9e3f-9401dd308fe0.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.colorblue{
+    color: #45c128;
+}
+.colorsb{
+        color: #a1ccfe;
+}
+.wrap_four{
+    width: 1240px;
+    height: 388px;
+    /* background: #fff; */
+    margin: auto;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.wrap_four li{
+    width: 303px;
+    height: 388px;
+    background: #fff;
+    /* margin-left: 10px; */
+}
+/* .wrap_four .li_one{
+    margin:0;
+} */
+.img_foot{
+    width: 303px;
+    height: 190px;
+}
+.img_por{
+    width: 38px;
+    height: 38px;
+    border-radius: 100px;
+}
+.head_ph{
+    height: 42px;
+    line-height: 42px;
+    padding: 10px 15px 15px;
+}
+.head_ph span{
+    font-size: 14px;
+    color: #515151;
+    padding-left: 20px;
+   
+}
+.wrap_four li p{
+    font-size: 16px;
+    height: 66px;
+    line-height: 27px;
+    color: #515151;
+    padding: 0 15px 0 15px;
+}
+.mz_nine{
+    color: #999;
+    display: block;
+    font-size: 12px;
+    padding: 25px 0 0 15px;
+}
+.wrap_five{
+    width: 1240px;
+    height: 245px;
+    /* background: #fff; */
+    margin: auto;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.wrap_five li{
+    width: 303px;
+    height: 245px;
+    background: #fff;
+    /* margin-left: 10px; */
+}
+.wrap_five .img_fire{
+    width: 615px;
+    height: 245px;
+}
+.img_fire img{
+    width: 615px;
+    height: 245px;
+}
+.img_iph{
+    width: 303px;
+    height: 190px;
+}
+.and{
+    width: 303px;
+    height: 55px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    color: #515151;
+}
+.ands{
+    width: 303px;
+    height: 55px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    color: #515151; 
+}
+.wrap_five li {
+    position: relative;
+}
+.wrap_five li  i{
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/bofang.png);
+    background-size: 30px 30px;
+    position: absolute;
+    right:10px;
+    bottom:70px;
+}
+.bottom_ys{
+    width: 100%;
+    height: 248px;
+    background: #fff;
+    margin-top: 60px;
+    border-top: 1px solid #f1f1f1;
+}
+.wrap_six{
+    width: 1240px;
+    height: auto;
+    /* background: #fff; */
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+}
+.line_one{
+    font-size: 12px;
+    color: #999;
+    text-align: right;
+}
+.sth{
+    width: 1000px;
+    height: 69px;
+    /* background: red; */
+}
+.sth li{
+   width: 15%;
+   text-align: center;
+}
+.sth li img {
+    width: 50px;
+    height: 39px;
+}
+.sth li span {
+    color: #999;
+    display: block;
+    font-size: 12px;
+}
+.dianh{
+    color: #00c3f5;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: -3px;
+    top:20px;
+}
+.innth{
+    width: 88px;
+    height: 30px;
+    background: #0bbbef;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    right: -3px;
+    top: 65px;
+}
+.border_bottom{
+    width: 100%;
+    height: 1px;
+    background: #eee;
+    margin-top: 25px
+}
+.know li a{
+    font-size: 12px;
+    color: #999;
+}
+.know li img{
+    width: 18px;
+    height: 18px;
+    display:block;
+    padding-right: 5px;
+}
+.know li{
+   height: 18px;
+   /* border-left: 1px solid #999; */
+   border-right: 1px solid #999;
+   text-align: center;
+   line-height: 18px;
+   /* padding-left: 10px */
+   padding-right: 15px;
+   margin-right: 15px;
+}
+.know{
+    margin-top: 30px;
+}
+.nmsl{
+    width: 1000px;
+     /* background: red;  */
+     /* position: relative; */
+     margin-top:10px;
+} 
+.nmsl span{
+    color: #999;
+    font-size: 12px;
+}
+.nmsl a{
+    color: #999;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.botimg_one{
+    width: 15px;
+    height: 15px;
+    margin-top:5px;
+    display: inline-block;
+    position: relative;
+    left: 5px;
+    top: 3px; 
+}
+.nmsl_a1{
+    margin-left: 15px;
+}
